@@ -38,6 +38,7 @@ class CustomTableViewCell: UITableViewCell, UICollectionViewDataSource, UICollec
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return products.count
+//        return 1
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -45,6 +46,7 @@ class CustomTableViewCell: UITableViewCell, UICollectionViewDataSource, UICollec
         let product = products[indexPath.row]
         cell0?.configureCell(product: product)
         return cell0!
+//        return cell0
     }
     
     override func awakeFromNib() {

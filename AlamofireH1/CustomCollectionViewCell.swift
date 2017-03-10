@@ -16,6 +16,7 @@ class CustomCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
     
     func configureCell(product: Product!) {
-        imageView.af_setImage(withURL: NSURL(string: "http://a2b.mul.pw/static/img\(product.imageShow_cover)") as! URL)
+        imageView.af_setImage(withURL: NSURL(string: "http://a2b.mul.pw/static/img/\(product.imageShow_cover)") as! URL)
+//        imageView.af_setImage.af_setImage.af_setImage(withURL: NSURL(string: "http://a2b.mul.pw/static/img/\(product.imageShow_cover)") as! URL)
     }
 }
