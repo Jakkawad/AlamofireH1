@@ -34,8 +34,8 @@ class LoginViewController: UIViewController {
             self.lblWarning.isHidden = true
             self.txtUsername.layer.borderColor = UIColor.clear.cgColor
             self.txtPassword.layer.borderColor = UIColor.clear.cgColor
-//            self.dismiss(animated: false, completion: nil)
-            print("dissmiss")
+            self.dismiss(animated: false, completion: nil)
+//            print("dissmiss")
         }
     }
     
